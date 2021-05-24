@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>js form validation</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/sheet-sinup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="xfom">
+          <label>Username</label>
+          <input type="text" placeholder="user12" id="username" />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Error message</small>
+        </div>
+        <div class="xfom">
+          <label>Email</label>
+          <input type="email" placeholder="example@gmail" id="Email" />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Error message</small>
+        </div>
+        <div class="xfom">
+          <label>Password</label>
+          <input type="password" placeholder="" id="Password" />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Error message</small>
+        </div>
+        <div class="xfom">
+          <label>Check-password</label>
+          <input type="password" placeholder="" id="pass" />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Error message</small>
+        </div>
+        <div class="xfom">
+          <label>Check-password</label>
+          <input
+            type="tel"
+            placeholder=""
+            id="pass"
+            onkeypress="return
+          onlyNumberKey(event)"
+          />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Error message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <script src="css/custom.js"></script>
+  </body>
+</html>

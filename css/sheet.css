@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(73, 72, 71, 0.295);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     margin: 0;
+
+}
+.container{
+    background-color: darkgray;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header{
+/* width: 70%;
+    background-color: #f7f7f7; */
+    /* border-bottom: 1px solid #070606; */
+    padding: 10px 40px;
+    margin: 20 auto;
+    /* border-radius: 40px; */
+    text-align: center;
+    font-size: 23px;
+    color: darkgrey;
+}
+
+.header span{
+    background-color: #fff;
+    color: darkgray;
+    border: none;
+    font-family: inherit;
+    border-radius: 40px;
+    font-size: larger;
+    padding: 10px;
+
+    cursor: pointer;
+   
+}
+.header span:hover{
+    background-color: rgba(14, 3, 3, 0.281);
+    color: white;
+    
+}
+.form{
+    padding: 30px 40px;
+}
+ .xfom{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.xfom label{
+display: inline-block;
+margin-bottom: 5px;
+}
+.xfom input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+/* .xfom.success input{
+    border-color:#2ecc71 ;
+}
+.xfom.error input{
+    border-color:#e74c3c ;
+}
+.xfom.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+.xfom.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible
+}
+
+.xfom i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.xfom small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.xfom.error small{
+    color: #e74c3c;
+    visibility: visible;
+} */ 
+.form button{
+    background-color: darkgray;
+    border-radius: 2px solid rgb(41, 40, 40);
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+.form button:hover{
+    background-color: white;
+    color: darkgray;
+}
